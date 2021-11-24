@@ -1,0 +1,93 @@
+html{
+    background: no-repeat;
+}
+body{
+    font-family: 'Noto Sans Mono', monospace;
+}
+h1{
+    font-size: 50px;
+    font-family:Verdana, Tahoma, sans-serif;
+    color: coral;
+    }
+h2{
+    text-align: center;
+    color: cadetblue;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+.centrar{
+    text-align: center;
+}
+
+article{
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    background-color: crimson;
+}
+
+.parrafo1{
+    color:white;
+    text-align: center;
+    font-size: 23px;
+    margin: 40px;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.parrafo2{
+    color: white;
+    font-size: 20px;
+    margin: 40px;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+#combustion{
+    color: black;
+    font-size: 25px;
+}
+
+#motorelectrico{
+    width: 500px;
+}
+
+#tarjetas{
+    justify-content: flex-end;
+}
+
+#motornaftero{
+    width: 350px;
+
+}
+#othercard{
+    margin-top: 100px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: royalblue;
+    text-align: center;
+}
+
+.navigation ul li{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+.navigation ul li:hover{
+    color: blueviolet;
+    background-color: cyan;
+    border-radius: 16px;
+}
+.navigation ul li a:link{
+    color: blueviolet;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
